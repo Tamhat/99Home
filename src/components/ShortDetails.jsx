@@ -38,10 +38,10 @@ const ShortDetails = () => {
         </div>
 
         <div>
-          <p className="uppercase">Living Room</p>
+          <p className="uppercase">Size</p>
           <div className="flex gap-2 items-center font-bold text-lg">
-            <BiBed />
-            <p>x2</p>
+            <SlSizeActual />
+            <p>1850 SQ/FT</p>
           </div>
         </div>
       </div>

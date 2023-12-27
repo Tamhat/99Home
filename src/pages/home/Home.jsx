@@ -21,7 +21,7 @@ const Home = () => {
       <Slider />
       <PropertyDetails />
       {/* <VideoGallery /> */}
-      <PropertySpecification />
+      {/* <PropertySpecification /> */}
       <ImageGallery />
       {/* <NearPlaces /> */}
       <Maps />

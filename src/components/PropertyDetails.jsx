@@ -36,7 +36,7 @@ const PropertyDetails = () => {
               BE VIEWED ON COVENTRY COUNCIL PLANNING PORTAL REF: RM/2021/3791
               <br /> <br /> OFFERS BASED ON £300,000............
               <br />
-              <br /> For viewing arrangement, please get in touch with 99home.
+              <br /> For viewing arrangement, please get in touch with us.
               <br />
               <br />
               <span className="font-bold text-lg">
@@ -155,7 +155,7 @@ const PropertyDetails = () => {
 
             <div className="space-y-2">
               <h4 className="text-xl font-bold truncate">
-                99home, Online Estate Agent
+              Lee Clarke, Estate Agent, Coventry
               </h4>
               {/* <p className="truncate">
                 111 New Union Street, Coventry, CV5 7DS
@@ -164,7 +164,7 @@ const PropertyDetails = () => {
 
             <div className="bg-purple-100 px-5 py-3 rounded-2xl my-4 space-y-2">
               <p className="text-lg font-bold">
-                <span className="text-purple-700">Call:</span> 02035000999
+                <span className="text-purple-700">Call:</span> 07940794030
               </p>
             </div>
 

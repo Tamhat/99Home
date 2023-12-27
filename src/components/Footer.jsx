@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex-1">
           <h1 className="text-xl font-bold mb-5">99home</h1>
           <p>
-          99home is the seller's agent for this property. Your conveyancer is legally responsible for ensuring any purchase agreement fully protects your position. We make detailed enquiries of the seller to ensure the information provided is as accurate as possible. Please inform us if you become aware of any information being inaccurate.
+          Seize this rare opportunity to own a prime piece of land in Coventry's serene countryside. Located on Hawkes Mill Lane, this final plot offers a unique chance to build your dream home. With detailed planning already approved for an 1850 sq/ft luxury dwelling and potential to extend up to 2400 sq/ft, your vision for a perfect home can become a reality. Embrace the tranquility of rural living while enjoying the convenience of city proximity. Don't miss out on this exclusive offer!
           </p>
         </div>
 
@@ -18,17 +18,17 @@ const Footer = () => {
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <FaLocationArrow />
-              <address>Hawkes Mill Lane, Coventry, Warks, CV5</address>
+              <address>Broadmere Rise, Coventry, CV5 7DS</address>
             </div>
 
             <div className="flex gap-2 items-center">
               <BsFillTelephoneOutboundFill />
-              <p>02035000999</p>
+              <p>07940794030</p>
             </div>
 
             <div className="flex items-center gap-2">
               <MdMarkEmailRead />
-              <p>info@99home.co.uk </p>
+              <p>cedargardens@gmail.com</p>
             </div>
           </div>
         </div>

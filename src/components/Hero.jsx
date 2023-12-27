@@ -17,12 +17,9 @@ const Hero = () => {
     >
       {/* title description */}
       <div className="space-y-4" data-aos="fade-right">
-        <h1 className="text-3xl md:text-5xl font-semibold hero-title text-center md:text-left">
-          Your Dream <br className="hidden md:flex" /> House is{" "}
-          <br className="flex md:hidden" /> Waiting{" "}
-          <br className="hidden md:flex" />
-          For You
-        </h1>
+        <h2 className="text-2xl md:text-4xl font-semibold hero-title text-center md:text-left">
+        Build Your Dream: <br/>Prime Countryside Land <p className="text">in Coventry with Approved Plans</p>
+        </h2>
         <p>
         FINAL PLOT FOR SALE. UNIQUE LOCATION ON PRIVATE ROAD OVERLOOKING COUNTRYSIDE. DETAILED PLANNING CURRENTLY APPROVED FOR EXCLUSIVE 1850 SQ/FT DWELLING. THE SITE HAS ITS PERMITTED DEVELOPMENT IN TACT ALLOWING FOR INITIAL AUTOMATIC EXTENSION UP TO 2400 SQ/FT. ALL SERVICES ON SITE.
         </p>

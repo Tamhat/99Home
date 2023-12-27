@@ -41,12 +41,12 @@ const ImageGallery = () => {
   return (
     <section id="gallery" className="bg-gray-100 padding">
       {/* title */}
-      <h2
+      <h3
         className="text-4xl font-bold text-center mb-10"
         data-aos="fade-right"
       >
-        Coventry Luxury: 5-Bed Land in Coventry for Sale
-      </h2>
+        Exclusive Opportunity: Prime Land with Approved Plans in Coventry's Idyllic Countryside – Build Your Dream Home at Hawkes Mill Lane
+      </h3>
 
       {/* images */}
       <div
