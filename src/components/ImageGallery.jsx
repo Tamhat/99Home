@@ -45,12 +45,12 @@ const ImageGallery = () => {
         className="text-4xl font-bold text-center mb-10"
         data-aos="fade-right"
       >
-        Exclusive Opportunity: Prime Land with Approved Plans in Coventry's Idyllic Countryside – Build Your Dream Home at Hawkes Mill Lane
+        For Sale: Dream Home Plot, Hawkes Mill Lane, Coventry
       </h3>
 
       {/* images */}
       <div
-        className="w-[90%] lg:w-[70%] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 cursor-pointer"
+        className="w-[90%] lg:w-[70%]  mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10 cursor-pointer"
         data-aos="fade-up"
       >
         {images.slice(0, 6).map((item, index) => (
@@ -59,7 +59,8 @@ const ImageGallery = () => {
               src={item}
               alt={index}
               onClick={() => handleImageClick(index)}
-              className="rounded object-cover hover:scale-110 duration-700"
+              className="rounded object-cover hover:scale-110 duration-700 h-[95%] w-[100%]"
+              
             />
           </div>
         ))}

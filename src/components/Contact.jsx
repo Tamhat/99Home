@@ -98,7 +98,7 @@ const Contact = () => {
           {/* titles */}
           <div className="space-y-5 mb-5">
             <h2 className="text-4xl font-bold">
-              Contact 99home, Online Estate Agent, Coventry
+            Contact Lee Clarke Estate Agent, Coventry
             </h2>
             <div className="flex gap-5">
               <p>Email about:</p>
@@ -145,7 +145,7 @@ const Contact = () => {
                     }
                     onChange={handleCheckBox}
                   />
-                  <p>To view a property</p>
+                  <p>To view land</p>
                 </label>
               </label>
             </div>
@@ -249,14 +249,14 @@ const Contact = () => {
             </div>
 
             <div className="space-y-2 py-5 px-5">
-              <p className="font-bold text-lg">5 bedroom detached</p>
+              <p className="font-bold text-lg">5 bedroom | 4 Bathroom</p>
               <p>Hawkes Mill Lane, Coventry, Warks, CV5</p>
             </div>
 
             <hr className="w-[50%] mx-auto border-[1px] border-gray-500" />
 
             <div className="space-y-2 py-5 px-5">
-              <p className="font-bold text-lg">99Home, Online Estate Agent</p>
+              <p className="font-bold text-lg">Lee Clarke Estate Agent</p>
               {/* <p>111 New Union Street, Coventry, CV1 2NT</p> */}
             </div>
           </div>

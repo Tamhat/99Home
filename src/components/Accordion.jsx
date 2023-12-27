@@ -81,7 +81,7 @@ const Accordion = () => {
   };
 
   return (
-    <div ref={formRef}>
+    <div ref={formRef} className="z-100">
       <button
         onClick={toggleAccordion}
         className="bg-purple-700 text-white py-2 px-5 w-full rounded-xl font-bold uppercase flex justify-between items-center"
@@ -96,9 +96,9 @@ const Accordion = () => {
 
       <div
         className={clsx(
-          "transition-height duration-300 overflow-hidden absolute left-0 right-0",
+          "transition-height duration-300 overflow-hidden absolute left-0 right-0 z-100",
           isOpenAccordion ? "h-auto" : "h-0"
-        )}
+        ) }
       >
         <form
           onSubmit={handleSubmit}

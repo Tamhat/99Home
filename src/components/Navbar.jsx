@@ -3,7 +3,7 @@ import clsx from "clsx";
 import { IoClose } from "react-icons/io5";
 import { FiMenu } from "react-icons/fi";
 import { Link } from "react-scroll";
-import logo from '../assets/logo.jpeg'
+import logo from '../assets/image_prev_ui.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +50,7 @@ const Navbar = () => {
             : ""
         }
       >
-        Floor Plans
+        Land Plans
       </Link>
 
       <Link
@@ -124,7 +124,7 @@ const Navbar = () => {
       <div className="wrapper h-[10vh] flex items-center justify-between">
         {/* title */}
         
-        <h1 className="text-xl font-bold"><img src={logo} alt="Floor Plan" width={'60px'} /></h1>
+        <h1 className="text-xl font-bold"><img src={logo} alt="Floor Plan" width={'125px'} /></h1>
 
         {/* toggle nav */}
         <button

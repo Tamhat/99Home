@@ -7,7 +7,7 @@ const Footer = () => {
     <section className="bg-black brightness-90">
       <div className="wrapper py-10 text-white/90 flex justify-around flex-col md:flex-row gap-10">
         <div className="flex-1">
-          <h1 className="text-xl font-bold mb-5">99home</h1>
+          <h1 className="text-xl font-bold mb-5">About Us</h1>
           <p>
           Seize this rare opportunity to own a prime piece of land in Coventry's serene countryside. Located on Hawkes Mill Lane, this final plot offers a unique chance to build your dream home. With detailed planning already approved for an 1850 sq/ft luxury dwelling and potential to extend up to 2400 sq/ft, your vision for a perfect home can become a reality. Embrace the tranquility of rural living while enjoying the convenience of city proximity. Don't miss out on this exclusive offer!
           </p>
