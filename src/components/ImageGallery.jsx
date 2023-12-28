@@ -42,7 +42,7 @@ const ImageGallery = () => {
     <section id="gallery" className="bg-gray-100 padding">
       {/* title */}
       <h3
-        className="text-4xl font-bold text-center mb-10"
+        className="text-4xl font-bold text-center mb-10 text-black"
         data-aos="fade-right"
       >
         For Sale: Dream Home Plot, Hawkes Mill Lane, Coventry

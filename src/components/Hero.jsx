@@ -29,14 +29,14 @@ const Hero = () => {
           Hawkes Mill Lane, Coventry, Warks, CV5
           </h4>
           <div>
-            <p className="text-gray-600">Offers in Region of</p>
+            <p className="text-white">Offers in Region of</p>
             <p className="font-bold text-lg">£295,000</p>
           </div>
         </div>
 
         <div>
           <Link
-            className="md:px-5 px-4 bg-purple-700 text-white py-2 md:py-3 rounded font-bold"
+            className="md:px-5 px-4 bg-pink-700 text-white py-2 md:py-3 rounded font-bold"
             to="contact"
             spy={true}
             smooth={true}
@@ -53,6 +53,7 @@ const Hero = () => {
         // autoPlay
         loop
         controls
+        // muted
         controlsList="nodownload"
         className="w-full aspect-video brightness-90 rounded"
         data-aos="fade-left"

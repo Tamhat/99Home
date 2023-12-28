@@ -92,7 +92,7 @@ const Contact = () => {
       <div className="w-[90%] lg:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
         {/* contact form */}
         <div
-          className="order-1 md:order-none boxShadow p-10 rounded-xl md:col-span-3"
+          className="order-1 md:order-none boxShadow p-10 rounded-xl md:col-span-3 bg-black"
           data-aos="fade-right"
         >
           {/* titles */}
@@ -114,7 +114,7 @@ const Contact = () => {
             className="pageclip-form lg:order-1"
           >
             <div className="flex gap-5 items-center mb-5">
-              <label className="block text-gray-700 font-semibold">
+              <label className="block text-white-700 font-semibold">
                 I would like:
               </label>
               <label className="flex gap-5">
@@ -152,7 +152,7 @@ const Contact = () => {
 
             <div className="flex gap-5 justify-between flex-col md:flex-row mb-5">
               <div className="flex-1">
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-white-700 font-semibold mb-2">
                   First Name *
                 </label>
                 <input
@@ -167,7 +167,7 @@ const Contact = () => {
               </div>
 
               <div className="flex-1">
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-white-700 font-semibold mb-2">
                   Last Name *
                 </label>
                 <input
@@ -183,7 +183,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-5">
-              <label className="block text-gray-700 font-semibold mb-2">
+              <label className="block text-white-700 font-semibold mb-2">
                 Email *
               </label>
               <input
@@ -198,7 +198,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-5">
-              <label className="block text-gray-700 font-semibold mb-2">
+              <label className="block text-white-700 font-semibold mb-2">
                 Phone Number *
               </label>
               <input
@@ -213,7 +213,7 @@ const Contact = () => {
             </div>
 
             <div className="mb-5">
-              <label className="block  text-gray-700 font-semibold mb-2">
+              <label className="block  text-white-700 font-semibold mb-2">
                 Message
               </label>
               <textarea
@@ -236,8 +236,8 @@ const Contact = () => {
         </div>
 
         {/* pricing and short details */}
-        <div className="md:col-span-2" data-aos="fade-left">
-          <div className="boxShadow rounded-xl">
+        <div className="md:col-span-2 " data-aos="fade-left">
+          <div className="boxShadow bg-black rounded-xl">
             <img
               src="https://i.ibb.co/xjsPLfG/hero-img.jpg"
               alt="Property Image"

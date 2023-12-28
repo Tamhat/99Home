@@ -17,8 +17,8 @@ const Navbar = () => {
   const navItems = (
     <div
       className={clsx(
-        "flex flex-col md:flex-row md:justify-between gap-5 p-[5%] md:p-0 shadow-md md:shadow-none absolute md:static left-0 w-full md:w-auto bg-white duration-500 md:duration-0 ease-linear nav-items",
-        isOpen ? "top-[10vh] border-black/90 border-t-2" : "-top-[100vh]"
+        "flex flex-col md:flex-row md:justify-between gap-5 p-[5%] md:p-0 shadow-md md:shadow-none absolute md:static left-0 w-full md:w-auto duration-500 md:duration-0 ease-linear nav-items bg-none",
+        isOpen ? "top-[10vh] border-black/90 border-t-2" : "-top-[100vh] "
       )}
     >
       <Link
@@ -30,7 +30,7 @@ const Navbar = () => {
         onClick={() => handleLinkClick("home")}
         className={
           activeLink === "home"
-            ? "text-purple-700 md:border-b-2 md:border-purple-700"
+            ? "text-black md:border-b-2 md:border-purple-700"
             : ""
         }
       >
@@ -46,7 +46,7 @@ const Navbar = () => {
         onClick={() => handleLinkClick("floor-plans")}
         className={
           activeLink === "floor-plans"
-            ? "text-purple-700 md:border-b-2 md:border-purple-700"
+            ? "text-black md:border-b-2 md:border-purple-700"
             : ""
         }
       >
@@ -62,7 +62,7 @@ const Navbar = () => {
         onClick={() => handleLinkClick("about")}
         className={
           activeLink === "about"
-            ? "text-purple-700 md:border-b-2 md:border-purple-700"
+            ? "text-black md:border-b-2 md:border-purple-700"
             : ""
         }
       >
@@ -78,7 +78,7 @@ const Navbar = () => {
         onClick={() => handleLinkClick("video-tour")}
         className={
           activeLink === "video-tour"
-            ? "text-purple-700 md:border-b-2 md:border-purple-700"
+            ? "text-black md:border-b-2 md:border-purple-700"
             : ""
         }
       >
@@ -94,7 +94,7 @@ const Navbar = () => {
         onClick={() => handleLinkClick("gallery")}
         className={
           activeLink === "gallery"
-            ? "text-purple-700 md:border-b-2 md:border-purple-700"
+            ? "text-black md:border-b-2 md:border-purple-700"
             : ""
         }
       >
@@ -110,7 +110,7 @@ const Navbar = () => {
         onClick={() => handleLinkClick("contact")}
         className={
           activeLink === "contact"
-            ? "text-purple-700 md:border-b-2 md:border-purple-700"
+            ? "text-black md:border-b-2 md:border-purple-700"
             : ""
         }
       >
@@ -120,11 +120,13 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="shadow-xl bg-white fixed top-0 left-0 right-0 z-20">
+    <nav className="shadow-xl fixed top-0 left-0 right-0 z-20 bg-[#ed14a4]">
       <div className="wrapper h-[10vh] flex items-center justify-between">
         {/* title */}
         
-        <h1 className="text-xl font-bold"><img src={logo} alt="Floor Plan" width={'125px'} /></h1>
+        <h1 className="text-xl font-bold">
+          {/* <img src={logo} alt="Floor Plan" width={'125px'} /> */}
+        Dream House</h1>
 
         {/* toggle nav */}
         <button

@@ -124,7 +124,7 @@ const PropertyDetails = () => {
 
           <button
             onClick={() => setIsOpenText(!isOpenText)}
-            className="text-purple-700"
+            className="text-yellow-400 font-bold ital"
           >
             {isOpenText ? "Read Less..." : "Read More..."}
           </button>
@@ -133,7 +133,7 @@ const PropertyDetails = () => {
 
       {/* contact info */}
       <div className="md:col-span-2" data-aos="fade-down">
-        <div className="boxShadow rounded-xl brightness-95">
+        <div className="boxShadow rounded-xl brightness-100 bg-gray-">
           <img
             src="https://i.ibb.co/xjsPLfG/hero-img.jpg"
             alt="Property Image"
@@ -163,7 +163,7 @@ const PropertyDetails = () => {
             </div>
 
             <div className="bg-purple-100 px-5 py-3 rounded-2xl my-4 space-y-2">
-              <p className="text-lg font-bold">
+              <p className="text-lg font-bold text-black">
                 <span className="text-purple-700">Call:</span> 07940794030
               </p>
             </div>

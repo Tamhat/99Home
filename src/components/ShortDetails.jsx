@@ -11,7 +11,7 @@ const ShortDetails = () => {
   }, []);
 
   return (
-    <section className="border-t-4 border-black/80" data-aos="fade-up">
+    <section className="border-t-4 border-white/80" data-aos="fade-up">
       <div className="wrapper flex justify-between flex-wrap py-5 gap-y-5">
         <div>
           <p className="uppercase">Property Type</p>
