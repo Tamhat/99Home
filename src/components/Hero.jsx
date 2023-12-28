@@ -1,9 +1,8 @@
 import { useEffect } from "react";
 import Aos from "aos";
-import video from "../assets/video.mp4";
+import video from "../assets/Plot of Land for sale _ Hawkes Mill Lane, Coventry, Warks, CV5.mp4";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
-import hero from '../assets/hero-img.jpeg'
 
 const Hero = () => {
   useEffect(() => {
@@ -50,7 +49,16 @@ const Hero = () => {
       </div>
 
       {/* video */}
-      <img src={hero} alt="Floor Plan" className="w-full md:h-[85vh]" />
+      <video
+        // autoPlay
+        loop
+        controls
+        controlsList="nodownload"
+        className="w-full aspect-video brightness-90 rounded"
+        data-aos="fade-left"
+      >
+        <source type="video/mp4" src={video} />
+      </video>
     </section>
   );
 };

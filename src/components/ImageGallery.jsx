@@ -50,23 +50,20 @@ const ImageGallery = () => {
 
       {/* images */}
       <div
-        className="w-[90%] lg:w-[70%]  mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-10 cursor-pointer"
+        className="w-[90%] lg:w-[70%] h-[50%]  mx-auto grid grid-cols-2 gap-10 align-center justify-center cursor-pointer my-0"
         data-aos="fade-up"
       >
         {images.slice(0, 6).map((item, index) => (
-          <div className="relative" key={index}>
-            <img
-              src={item}
-              alt={index}
-              onClick={() => handleImageClick(index)}
-              className="rounded object-cover hover:scale-110 duration-700 h-[95%] w-[100%]"
-              
-            />
-          </div>
+          <div
+            key={index}
+            style={{ background: `url(${item}) center no-repeat`, height: '15rem', backgroundSize: 'cover' }}
+            onClick={() => handleImageClick(index)}
+            className="rounded object-cover hover:scale-110 duration-700 h-[50%] w-[100%]"
+          />
         ))}
         <p
           onClick={() => handleImageClick(6)}
-          className="bg-purple-700 px-2 py-1 rounded text-white absolute bottom-0 right-0"
+          className="bg-purple-700 px-2 py-1 rounded text-white absolute bottom-0 right-0 mb-[-7%]"
         >
           See More
         </p>

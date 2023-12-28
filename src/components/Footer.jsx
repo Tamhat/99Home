@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <FaLocationArrow />
-              <address>Broadmere Rise, Coventry, CV5 7DS</address>
+              <address>Hawkes Mill Lane, Coventry, Warks, CV5</address>
             </div>
 
             <div className="flex gap-2 items-center">
@@ -28,7 +28,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-2">
               <MdMarkEmailRead />
-              <p>cedargardens@gmail.com</p>
+              <p>leeclarkeltd@gmail.com</p>
             </div>
           </div>
         </div>

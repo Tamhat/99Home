@@ -147,7 +147,7 @@ const PropertyDetails = () => {
 
           <div className="p-5">
             <div className="space-y-2">
-              <p className="font-bold text-lg">5 bedroom detached</p>
+              <p className="font-bold text-lg">5 bedroom | 4 Bathroom</p>
               <p>Hawkes Mill Lane, Coventry, Warks, CV5</p>
             </div>
 

@@ -20,7 +20,7 @@ const Home = () => {
       <ShortDetails />
       <Slider />
       <PropertyDetails />
-      {/* <VideoGallery /> */}
+      <VideoGallery />
       {/* <PropertySpecification /> */}
       <ImageGallery />
       {/* <NearPlaces /> */}

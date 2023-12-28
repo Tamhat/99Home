@@ -249,7 +249,7 @@ const Contact = () => {
             </div>
 
             <div className="space-y-2 py-5 px-5">
-              <p className="font-bold text-lg">5 bedroom detached</p>
+              <p className="font-bold text-lg">5 bedroom | 4 Bathrooms</p>
               <p>Hawkes Mill Lane, Coventry, Warks, CV5</p>
             </div>
 
