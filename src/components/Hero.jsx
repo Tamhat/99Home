@@ -22,7 +22,8 @@ const Hero = () => {
 
         </h2>
         <p>
-        FINAL PLOT FOR SALE. UNIQUE LOCATION ON PRIVATE ROAD OVERLOOKING COUNTRYSIDE. DETAILED PLANNING CURRENTLY APPROVED FOR EXCLUSIVE 1850 SQ/FT DWELLING. THE SITE HAS ITS PERMITTED DEVELOPMENT IN TACT ALLOWING FOR INITIAL AUTOMATIC EXTENSION UP TO 2400 SQ/FT. ALL SERVICES ON SITE.
+        {/* FINAL PLOT FOR SALE. UNIQUE LOCATION ON PRIVATE ROAD OVERLOOKING COUNTRYSIDE. DETAILED PLANNING CURRENTLY APPROVED FOR EXCLUSIVE 1850 SQ/FT DWELLING. THE SITE HAS ITS PERMITTED DEVELOPMENT IN TACT ALLOWING FOR INITIAL AUTOMATIC EXTENSION UP TO 2400 SQ/FT. ALL SERVICES ON SITE. */}
+        Seize this rare opportunity to own a prime piece of land in Coventry's serene countryside. Located on Hawkes Mill Lane, this final plot offers a unique chance to build your dream home. With detailed planning already approved for an 1850 sq/ft luxury dwelling and potential to extend up to 2400 sq/ft, your vision for a perfect home can become a reality. Embrace the tranquility of rural living while enjoying the convenience of city proximity. Don't miss out on this exclusive offer!
         </p>
         <div>
           <h4 className="text-xl font-bold truncate">
